@@ -5,6 +5,6 @@ date:   2017-12-10 13:21:03 +0000
 categories: 
 ---
 
-
+![My helpful screenshot]({{ "/assets/screenshot.jpg" | prepend: site.baseurl }})
 When I got divorced from my first wife we had a son. We split on no good terms so she kicked me out of his life. Now he’s grown, and he holds it against me because I was never there for him when he was young. Every time I took child support to my ex-wife, she would say he was gone, or over there, or doing this or that, always something to keep me from being able to see him. She told him I was the devil in disguise. She told him I beat her up and was real mean. It’s not true. The only reason I can think that she would have told him that is to keep me and him from having a relationship. It makes me feel real bad I never got to see him growing up.
 He’s twenty-seven, twenty-eight, now. He’s a professional body builder. Huge man. I see him on Facebook. He won first place in a weight-lifting competition. He lifted 980 pounds. That’s 20 pounds short of a half-ton! I’m so proud of him. He’s mad at me, but I’m still proud of him.
