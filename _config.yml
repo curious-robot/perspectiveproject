@@ -11,7 +11,7 @@ email: curious.robot@yahoo.com
 description: > # this means to ignore newlines until "baseurl:"
   A collection of life experiences from the
   perspectives of everyday people.
-baseurl: "/perspective-project" # the subpath of your site, e.g. /blog
+baseurl: "/perspectiveproject" # the subpath of your site, e.g. /blog
 url: "http://curious-robot.github.io" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  curious-robot
