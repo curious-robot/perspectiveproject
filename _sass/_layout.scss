@@ -29,6 +29,8 @@
 
 .site-nav {
     float: center;
+	height: 100%;
+	position: fixed;
     line-height: 40px;
 
     .menu-icon {
@@ -54,6 +56,7 @@
         border: 1px solid $grey-color-light;
         border-radius: 5px;
         text-align: center;
+		overflow-x: hidden;
 
         .menu-icon {
             display: block;
@@ -86,11 +89,7 @@
 
         .page-link {
             display: block;
-            padding: 5px 10px;
-
-            &:not(:last-child) {
-                margin-right: 0;
-            }
+            padding: 8px 8px 8px 32px;
             margin-left: 20px;
         }
     }
