@@ -3,3 +3,5 @@ description: A collection of life experiences from the perspectives of everyday 
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-minimal
+baseurl: "/perspectiveproject" # the subpath of your site, e.g. /blog
+url: "http://curious-robot.github.io" # the base hostname & protocol for your site
