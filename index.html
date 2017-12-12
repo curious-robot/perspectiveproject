@@ -6,7 +6,7 @@ layout: default
 
   <h1 class="page-heading">Posts</h1>
 
-  <ul class="post-list">
+<!--   <ul class="post-list">
     {% for post in site.posts %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
@@ -16,7 +16,18 @@ layout: default
         </h2>
       </li>
     {% endfor %}
-  </ul>
+  </ul> -->
+  
+  <div>
+		{% for post in site.posts %}
+		  <a href="{{ post.url | prepend: site.baseurl }}">
+			<figure>
+			  <img src="{{ "/assets/images/portraits/{{ post.title }}.jpg | prepend: site.baseurl }}" alt="">
+			</figure>
+		  </a>
+		{% endfor %}
+  
+  </div>
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
