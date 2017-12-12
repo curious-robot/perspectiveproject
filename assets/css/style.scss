@@ -20,11 +20,6 @@ $text-color:       #787878;
 $background-color: #FFFFFF;
 $brand-color:      #4fb245;
 
-header {
-	width: 20%;
-	float: left;
-	display: inline-block;
-}
 
 body {
 	background-color: $background-color;
@@ -128,7 +123,13 @@ p.center {
 section {
 	display: inline-block;
 	float: right;
-	
+}
+
+header {
+	width: 20%;
+	float: left;
+	margin-left: 60px;
+	display: inline-block;
 }
 
 a {
@@ -143,7 +144,7 @@ a {
 }
 
 .wrapper {
-	width: 100%;
+	width: 80%;
 	margin-left: 40px;
 	margin-right: 40px;
 }
