@@ -22,6 +22,8 @@ $brand-color:      #4fb245;
 
 header {
 	width: 20%;
+	float: left;
+	display: inline-block;
 }
 
 body {
@@ -124,7 +126,9 @@ p.center {
 /* Other */
 
 section {
+	display: inline-block;
 	float: left;
+	
 }
 
 a {
