@@ -52,8 +52,8 @@ body {
 
 .story-list-img {
 	object-fit: cover;
-	height: 200px;
-	width: 200px;
+	height: 60px;
+	width: 60px;
 }
 
 .post-list {
@@ -64,7 +64,7 @@ body {
 .post-img-link {
 	display: inline-block;
 	margin: 2px 2px 2px 2px;
-	width: 33%;
+    width: calc(33% - 8px);
 }
 
 .story-img {
