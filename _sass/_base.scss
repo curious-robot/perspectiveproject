@@ -100,7 +100,7 @@ a {
 
     &:hover {
         color: $text-color;
-        text-decoration: underline;
+        text-decoration: none;
     }
 }
 
@@ -162,6 +162,7 @@ pre {
     margin-left: auto;
     padding-right: $spacing-unit;
     padding-left: $spacing-unit;
+	text-align: center;
     @extend %clearfix;
 
     @include media-query($on-laptop) {
