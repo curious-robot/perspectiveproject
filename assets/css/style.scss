@@ -2,3 +2,43 @@
 ---
 
 @import "jekyll-theme-minimal";
+
+@font-face {
+  font-family: "Quicksand_Bold";
+  src: url("../fonts/quicksandbold.otf");
+}
+
+$base-font-family: Georgia, Times, Times New Roman, serif;
+$header-font-family: "Quicksand_Bold", Helvetica, Arial, sans-serif;
+$base-font-size:   16px;
+$base-font-weight: 400;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$text-color:       #787878;
+$background-color: #FFFFFF;
+$brand-color:      #4fb245;
+
+body {
+	background-color: $background-color;
+	padding:50px;
+	font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+	color: $text-color;
+	font-weight:400;
+}
+
+.site-title {
+	font: $base-font-weight 28px/1.1 $header-font-family;
+	color: $brand-color;
+	text-align: center;
+}
+
+.site-nav {
+	text-align: center;
+}
+
+.page-link {
+	text-align: center;
+	font: $base-font-weight 16px/1.1 $header-font-family;
+	color: $brand-color;
+}

@@ -15,7 +15,7 @@
   <body>
     <div class="wrapper">
       <header>
-        <a href="{{ site.baseurl }}"> <h1>{{ site.title }}</h1> </a>
+        <a href="{{ site.baseurl }}"><h1 class="site-title">{{ site.title }}</h1> </a>
         <p>{{ site.description }}</p>
 
         {% if site.github.is_user_page %}
@@ -29,16 +29,16 @@
             <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
           </ul>
         {% endif %}
-		    <nav class="site-nav">
-			  <div class="trigger">
-				{% for my_page in site.pages %}
-				  {% if my_page.title %}
-				  <p><a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></p>
-				  {% endif %}
-				{% endfor %}
-				  <p><a class="page-link" href="http://www.thecuriousrobot.com">Main Site</a></p>
-			  </div>
-			</nav>
+		<nav class="site-nav">
+		  <div class="trigger">
+			{% for my_page in site.pages %}
+			  {% if my_page.title %}
+			  <p><a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></p>
+			  {% endif %}
+			{% endfor %}
+			  <p><a class="page-link" href="http://www.thecuriousrobot.com">Main Site</a></p>
+		  </div>
+		</nav>
       </header>
       <section>
 
