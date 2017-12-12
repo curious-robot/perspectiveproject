@@ -53,6 +53,10 @@ body {
 	text-align: right;
 	font: 200 22px/1.1 $header-font-family;
 	color: $brand-color;
+	:hover {
+		color: $brand-color;
+		text-decoration: none;
+	}
 }
 
 /* About Page Content */
