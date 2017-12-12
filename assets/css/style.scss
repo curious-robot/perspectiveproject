@@ -41,7 +41,7 @@ body {
 
 .site-description {
 	font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
-	text-align: right;
+	text-align: right !important;
 	margin-bottom: 40px;
 }
 
@@ -62,8 +62,8 @@ body {
 
 .story-list-img {
   display: inline-block;
-  margin-bottom: 8px;
-  width: 25%;
+  width: 20%;
+  height: 100%;
 }
 
 .story-img {
