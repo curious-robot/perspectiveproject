@@ -50,8 +50,6 @@ body {
 }
 
 .story-list-img {
-	width: 200px;
-	height: 200px;
 	object-fit: cover;
 }
 
@@ -62,8 +60,9 @@ body {
 
 .post-img-link {
 	display: inline-block;
-	margin: 4px 4px 4px 4px;
+	margin: 2px 2px 2px 2px;
 	width: 30%;
+	height: 100%;
 }
 
 .story-img {
