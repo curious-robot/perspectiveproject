@@ -50,22 +50,21 @@ body {
 	color: $brand-color;
 }
 
-.story-list-img {
-	object-fit: cover;
-	height: 100px;
-	width: 100px;
-}
-
 .post-list {
 	display: flex;
 	flex-wrap: wrap;
 }
 
 .post-img-link {
-	display: inline-block;
-	margin: 2px 2px 2px 2px;
-    width: calc(33% - 8px);
+  display: inline-block;
+  margin-bottom: 8px;
+  width: calc(50% - 4px);
 }
+
+@media screen and (min-width: 50em) {
+  .post-img-link {
+    width: calc(25% - 6px);
+  }
 
 .story-img {
 	display: block;
