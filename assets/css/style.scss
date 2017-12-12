@@ -31,12 +31,12 @@ body {
 .site-title {
 	font: $base-font-weight 28px/1.1 $header-font-family;
 	color: $brand-color;
-	text-align: center;
+	text-align: right;
 }
 
 .site-description {
 	font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
-	text-align: center;
+	text-align: right;
 }
 
 .site-nav {
@@ -44,7 +44,7 @@ body {
 }
 
 .page-link {
-	text-align: center;
+	text-align: right;
 	font: 200 16px/1.1 $header-font-family;
 	color: $brand-color;
 }
@@ -69,5 +69,11 @@ body {
 .story-img {
 	display: block;
     margin: 0 auto;
-	width: 40%;
+	margin-bottom: 40px;
+	width: 60%;
+}
+
+.back-button {
+	font: 200 16px/1.1 $header-font-family;
+	color: $brand-color;
 }
