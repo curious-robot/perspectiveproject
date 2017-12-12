@@ -39,6 +39,6 @@ body {
 
 .page-link {
 	text-align: center;
-	font: $base-font-weight 16px/1.1 $header-font-family;
+	font: $base-font-weight * 0.80 16px/1.1 $header-font-family;
 	color: $brand-color;
 }
