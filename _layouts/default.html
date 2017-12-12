@@ -31,9 +31,9 @@
         {% endif %}
 		<nav class="site-nav">
 		  <div class="trigger">
-			{% for my_page in site.pages %}
-			  {% if my_page.title %}
-			  <p><a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a></p>
+			{% for page in site.pages %}
+			  {% if page.title %}
+			  <p><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></p>
 			  {% endif %}
 			{% endfor %}
 			  <p><a class="page-link" href="http://www.thecuriousrobot.com">Main Site</a></p>
