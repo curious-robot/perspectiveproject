@@ -45,6 +45,12 @@ body {
 
 .page-link {
 	text-align: center;
-	font: $small-font-weight 16px/1.1 $header-font-family;
+	font: 200 16px/1.1 $header-font-family;
 	color: $brand-color;
+}
+
+.story-list-img {
+	width: 200px
+	height: 200px
+	object-fit: cover;
 }
