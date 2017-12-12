@@ -243,3 +243,21 @@
         }
     }
 }
+
+#post-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.post-img-link {
+	display: inline-block;
+	margin-bottom: 8px;
+	width: calc(100% - 4px);
+}
+
+@media screen and (min-width: 50em) {
+  .post-img-link {
+    width: calc(25% - 6px);
+  }
+}

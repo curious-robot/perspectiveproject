@@ -4,8 +4,6 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
-
 <!--   <ul class="post-list">
     {% for post in site.posts %}
       <li>
@@ -18,9 +16,9 @@ layout: default
     {% endfor %}
   </ul> -->
   
-  <div>
+  <div id="post-list">
 		{% for post in site.posts %}
-		  <a href="{{ post.url | prepend: site.baseurl }}">
+		  <a class="post-img-link" href="{{ post.url | prepend: site.baseurl }}">
 			<figure>
 			  <img src="{{ "/assets/images/portraits/016.jpg" | prepend: site.baseurl }}" alt="">
 			</figure>
