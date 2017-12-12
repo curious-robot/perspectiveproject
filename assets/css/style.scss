@@ -53,11 +53,8 @@ body {
 	text-align: right;
 	font: 200 22px/1.1 $header-font-family;
 	color: $brand-color;
-	:hover {
-		color: $brand-color;
-		text-decoration: none;
-	}
 }
+
 
 /* About Page Content */
 
@@ -144,10 +141,10 @@ a {
 	:visited {
 		color: $brand-color;
 	}
-	:hover {
-		color: darken($brand-color, 20%) !important;
-		text-decoration: none !important;
-	}
+}
+a:hover, a:focus {
+ color: $brand-color;
+ font-weight: normal;
 }
 
 .wrapper {
