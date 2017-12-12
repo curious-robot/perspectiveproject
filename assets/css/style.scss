@@ -34,6 +34,8 @@ body {
 	margin-right: 20px;
 }
 
+/* Sidebar Content */
+
 .site-title {
 	font: $base-font-weight 36px/1.1 $header-font-family;
 	color: $brand-color;
@@ -56,6 +58,40 @@ body {
 	color: $brand-color;
 }
 
+/* About Page Content */
+
+p.center {
+	text-align: center;
+}
+
+.about-page-header {
+	font: $base-font-weight 36px/1.1 $header-font-family;
+	color: $brand-color;
+	text-align: center;
+}
+
+.mission-statement {
+	font: 700 24px/#{$base-line-height} $base-font-family;
+	text-align: center;
+	color: black;
+}
+
+.logo {
+	display: block;
+    margin: 0 auto;
+	width: 30%;
+}
+
+.profile-photo {
+	display: block;
+    margin: 0 auto;
+	width: 40px;
+	border-radius: 100%;
+}
+
+
+/* Home Page Content */
+
 .post-list {
 	display: flex;
 	flex-wrap: wrap;
@@ -67,6 +103,9 @@ body {
   width: 30%;
   height: 100%;
 }
+
+
+/* Story Page (Post) Content  */
 
 .story-img {
 	display: block;
@@ -80,15 +119,18 @@ body {
 	color: $brand-color;
 }
 
+
+/* Other */
+
  a {
 	color: $brand-color;
 	:visited {
 		color: $brand-color;
 	}
-	/* :hover { */
-		/* color: darken($brand-color, 40%) !important; */
-		/* text-decoration: none !important; */
-	/* } */
+	:hover {
+		color: darken($brand-color, 40%) !important;
+		text-decoration: none !important;
+	}
 }
 
 #mc_embed_signup{
