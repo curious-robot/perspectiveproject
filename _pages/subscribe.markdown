@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Subscribe
-permalink: subscribe
+permalink: /subscribe/
 ---
 
 {% include subscribe-email-form.html %}
