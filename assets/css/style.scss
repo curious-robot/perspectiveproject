@@ -55,16 +55,11 @@ body {
 	flex-wrap: wrap;
 }
 
-.post-img-link {
+.story-list-img {
   display: inline-block;
   margin-bottom: 8px;
-  width: calc(50% - 4px);
+  width: 25%;
 }
-
-@media screen and (min-width: 50em) {
-  .post-img-link {
-    width: calc(25% - 6px);
-  }
 
 .story-img {
 	display: block;
