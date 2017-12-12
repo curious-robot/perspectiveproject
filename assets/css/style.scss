@@ -37,6 +37,7 @@ body {
 .site-description {
 	font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
 	text-align: right;
+	margin-bottom: 40px;
 }
 
 .site-nav {
@@ -45,14 +46,14 @@ body {
 
 .page-link {
 	text-align: right;
-	font: 200 24px/1.1 $header-font-family;
+	font: 200 16px/1.1 $header-font-family;
 	color: $brand-color;
 }
 
 .story-list-img {
 	object-fit: cover;
-	height: 77%;
-	width: 100%;
+	height: 200px;
+	width: 200px;
 }
 
 .post-list {
@@ -63,7 +64,7 @@ body {
 .post-img-link {
 	display: inline-block;
 	margin: 2px 2px 2px 2px;
-	width: 30%;
+	width: 33%;
 }
 
 .story-img {
@@ -82,5 +83,9 @@ a {
 	color: $brand-color;
 	:visited {
 		color: $brand-color;
+	}
+	:hover {
+		color: darken($brand-color, 40%);
+		text-decoration: none;
 	}
 }
