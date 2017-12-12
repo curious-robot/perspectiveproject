@@ -59,11 +59,12 @@ body {
 .post-list {
 	display: flex;
 	flex-wrap: wrap;
+	width: 100%;
 }
 
 .story-list-img {
   display: inline-block;
-  width: 20%;
+  width: 30%;
   height: 100%;
 }
 
