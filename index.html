@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+  <div id="post-list">
+		{% for post in site.posts %}
+		  <a class="post-img-link" href="{{ post.url | prepend: site.baseurl }}">
+			<figure>
+			  <img src="{{ "/assets/images/portraits/016.jpg" | prepend: site.baseurl }}" alt="">
+			</figure>
+		  </a>
+		{% endfor %}
+  
+  </div>
+
+  <p class="rss-subscribe">subscribe <a href="">via RSS</a></p>

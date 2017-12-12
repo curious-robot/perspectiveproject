@@ -12,6 +12,7 @@ $base-font-family: Georgia, Times, Times New Roman, serif;
 $header-font-family: "Quicksand_Bold", Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $base-font-weight: 400;
+$small-font-weight: $base-font-weight * 0.80;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
@@ -33,12 +34,17 @@ body {
 	text-align: center;
 }
 
+.site-description {
+	font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+	text-align: center;
+}
+
 .site-nav {
 	text-align: center;
 }
 
 .page-link {
 	text-align: center;
-	font: $base-font-weight * 0.80 16px/1.1 $header-font-family;
+	font: $small-font-weight 16px/1.1 $header-font-family;
 	color: $brand-color;
 }
