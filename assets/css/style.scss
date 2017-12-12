@@ -79,13 +79,13 @@ body {
 	color: $brand-color;
 }
 
-!important a {
+ a {
 	color: $brand-color;
 	:visited {
 		color: $brand-color;
 	}
 	:hover {
-		color: darken($brand-color, 40%);
-		text-decoration: none;
+		color: darken($brand-color, 40%) !important;
+		text-decoration: none !important;
 	}
 }
