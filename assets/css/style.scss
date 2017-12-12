@@ -83,8 +83,8 @@ body {
 	:visited {
 		color: $brand-color;
 	}
-	:hover {
-		color: darken($brand-color, 40%) !important;
-		text-decoration: none !important;
-	}
+	/* :hover { */
+		/* color: darken($brand-color, 40%) !important; */
+		/* text-decoration: none !important; */
+	/* } */
 }
