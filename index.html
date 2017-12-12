@@ -6,7 +6,7 @@ layout: default
 		{% for post in site.posts %}
 		  <a class="post-img-link" href="{{ post.url | prepend: site.baseurl }}">
 			<figure>
-			  <img src="{{ "/assets/images/portraits/016.jpg" | prepend: site.baseurl }}" alt="">
+			  {% include story-list-img.html img-name={{ post.title }} %}
 			</figure>
 		  </a>
 		{% endfor %}
