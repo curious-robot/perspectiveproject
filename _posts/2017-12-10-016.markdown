@@ -6,4 +6,5 @@ categories:
 permalink: /016/
 ---
 
+{% include story-img.html %}
 My parents are separated. I stayed with my mom for most of my childhood and my dad was kinda in and out of the picture. He was around here and there. They both had their own problems and they still have to figure out some stuff for themselves. But I didn’t let their problems get to me and cause me any detrimental harm. 
