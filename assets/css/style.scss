@@ -40,7 +40,7 @@ body {
 }
 
 .site-nav {
-	text-align: center;
+	text-align: right;
 }
 
 .page-link {
@@ -77,3 +77,9 @@ body {
 	font: 200 16px/1.1 $header-font-family;
 	color: $brand-color;
 }
+
+a {
+	color: $brand-color;
+	:visited {
+		color: $brand-color;
+	}
