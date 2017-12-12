@@ -44,7 +44,7 @@ body {
 
 .site-description {
 	font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
-	text-align: right !important;
+	text-align: right;
 	margin-bottom: 40px;
 }
 
@@ -123,7 +123,11 @@ p.center {
 
 /* Other */
 
- a {
+section {
+	width: 80%;
+}
+
+a {
 	color: $brand-color;
 	:visited {
 		color: $brand-color;
