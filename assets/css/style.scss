@@ -20,12 +20,17 @@ $text-color:       #787878;
 $background-color: #FFFFFF;
 $brand-color:      #4fb245;
 
+header {
+	width: 20%;
+}
+
 body {
 	background-color: $background-color;
 	padding:50px;
 	font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
 	color: $text-color;
 	font-weight:400;
+	width: 80%;
 }
 
 .site-title {
