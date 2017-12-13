@@ -31,12 +31,12 @@
         {% endif %}
 		<nav class="site-nav">
 		  <div class="trigger">
+			<p><a class="page-link" href="{{ site.baseurl }}">Murphy, NC</a></p>
 			{% for page in site.pages %}
 			  {% if page.title %}
 			  <p><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></p>
 			  {% endif %}
 			{% endfor %}
-			  <p><a class="page-link" href="http://www.thecuriousrobot.com">Main Site</a></p>
 		  </div>
 		</nav>
       </header>
@@ -45,12 +45,9 @@
       {{ content }}
 
       </section>
-<!--       <footer>
-        {% if site.github.is_project_page %}
-        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer> -->
+      <footer>
+		<p><a class="page-link" href="http://www.thecuriousrobot.com">Main Site</a></p>
+      </footer>
     </div>
     <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
 
