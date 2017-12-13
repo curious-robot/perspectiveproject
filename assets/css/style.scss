@@ -121,11 +121,13 @@ p.center {
 	color: $brand-color;
 	display: inline-block;
 	text-align: left;
+	float: left;
 }
 
 .subscribe-button {
 	@extend .back-button;
-	text-align: right;	
+	text-align: right;
+    float: right;
 }
 
 
