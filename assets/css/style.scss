@@ -121,6 +121,11 @@ p.center {
 	color: $brand-color;
 }
 
+.subscribe-button {
+	@extend .back-button;
+	text-align: center;	
+}
+
 
 /* Other */
 
