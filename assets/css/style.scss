@@ -119,11 +119,13 @@ p.center {
 .back-button {
 	font: 200 30px/1.1 $header-font-family;
 	color: $brand-color;
+	display: inline-block;
+	text-align: left;
 }
 
 .subscribe-button {
 	@extend .back-button;
-	text-align: center;	
+	text-align: right;	
 }
 
 
