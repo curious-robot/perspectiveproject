@@ -109,9 +109,11 @@ p.center {
 /* */
 
 .post-img-link-wrapper {
-    position:relative;
-	display: inline-block;
-    width: 30%;
+	position:relative;
+	display:inline-block;
+	width:30%;
+	margin-inline-start: 4px;
+	margin-bottom: 6px;
 }
 .post-img-link-wrapper img {
     width:100%;
@@ -131,6 +133,8 @@ p.center {
 }
 .post-img-link-wrapper:before {
 	content:attr(data-content);
+	font-size: 12px;
+	font-size: 1.4vw;
 	width:100%;
 	color:#fff;
 	z-index:1;

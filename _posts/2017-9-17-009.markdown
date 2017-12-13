@@ -4,6 +4,7 @@ title:  "009"
 date:   2017-9-17 12:00:00 +0000
 categories: 
 permalink: /009/
+snippet: One really important thing to me is the environment. I think sometimes people don’t respect the environment as much as they should. We’re doing a lot to the world that we need to fix.
 ---
 
 One really important thing to me is the environment. I started doing environmental science for my undergrad, but I couldn’t really get through the chemistry, so I ended up doing business economics. Even so, the environment has always been something I’ve been involved in. I helped with river-way cleanups and stuff like that. And I think sometimes people don’t respect the environment as much as they should. We’re doing a lot to the world that we need to fix.

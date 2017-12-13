@@ -4,6 +4,7 @@ title:  "004"
 date:   2017-7-11 12:00:00 +0000
 categories: 
 permalink: /004/
+snippet: You know, it’s going to sound sappy, but, when you’re an educator, you’re making changes in kids’ lives. And now that I’m retired, I miss the kids. And I miss the teachers.
 ---
 
 You know, it’s going to sound sappy, but, when you’re an educator, you’re making changes in kids’ lives. And now that I’m retired, I miss the kids. And I miss the teachers.

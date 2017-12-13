@@ -4,6 +4,7 @@ title:  "012"
 date:   2017-10-16 12:00:00 +0000
 categories: 
 permalink: /012/
+snippet: My father died six weeks before I was born. My mother remarried when I was about four. She met a man at her job, and they eventually got married.
 ---
 
 
