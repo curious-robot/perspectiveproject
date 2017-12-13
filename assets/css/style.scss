@@ -130,16 +130,15 @@ p.center {
     background:rgba(0,0,0,0.6);
 }
 .post-img-link-wrapper:before {
-    content: attr(data-content);
-    width:100%;
-    color:#fff;
-    z-index:1;
-    bottom:0;
-    padding:4px 10px;
-    text-align:center;
-    background:red;
-    box-sizing:border-box;
-    -moz-box-sizing:border-box;
+	content:attr(data-content);
+	width:100%;
+	color:#fff;
+	z-index:1;
+	bottom: 0;
+	padding:4px 10px;
+	text-align:center;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box
 }
 .post-img-link-wrapper:hover:after, .post-img-link-wrapper:hover:before {
     opacity:1;
