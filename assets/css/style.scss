@@ -214,59 +214,31 @@ a:hover, a:focus {
 }
 
 @media only screen and (orientation: portrait) {
- .site-description {
-  display:none
- }
-  body, header {
-    position: relative;
-    width: 100;
+   html {
+    width: 100vw;
+  }
+  header, body, section {
     display: block;
+    width: 100vw;
+    margin: 0px 0px 0px 0px;
   }
-  .post-img-link {
-    width: 100%;
-  }
-  .story-list-img {
+  .post-list, .post-img-link, .post-img-link-wrapper, .story-list-img {
     left: 0;
-    top: 0;
-    bottom: 0;
-    right: 0;
-  }
-  header {
-    float: none;
-   width: 100%;
-    margin: 0 auto auto 0;
-    padding: 20px;
-    text-align: center;
-  }
-  body {
-    float:none
-  }
-  footer {
-    display: none;
-  }
-  .site-nav {
-    display: none;
   }
   .site-title {
-    display: -webkit-box;
-    text-align: center;
-    margin: 0px 0px 0px 0px;
     width: 100%;
+    text-align: center;
   }
-  .rss-subscribe {
-    display: none;
-  }
+ .site-description, .site-nav, footer .page-link {
+  display:none
+ }
   .post-img-link-wrapper {
     position:relative;
-    display:inline-grid;
+    display:block;
     width:100%;
-    margin-inline-start:4px;
-    margin-bottom:40px;
-    text-overflow:clip;
-    overflow:hidden
+    margin-bottom:20px;
   }
-  .post-img-link-wrapper:after,.post-img-link-wrapper:before {
-      display: none;
-    }
-  
+  .post-img-link-wrapper:hover:after,.post-img-link-wrapper:hover:before {
+    display: none;
+  }
 }
