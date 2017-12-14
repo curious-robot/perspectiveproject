@@ -212,3 +212,61 @@ a:hover, a:focus {
 	font:14px Helvetica,Arial,sans-serif; 
 	width:100%;
 }
+
+@media only screen and (orientation: portrait) {
+ .site-description {
+  display:none
+ }
+  body, header {
+    position: relative;
+    width: 100;
+    display: block;
+  }
+  .post-img-link {
+    width: 100%;
+  }
+  .story-list-img {
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+  }
+  header {
+    float: none;
+   width: 100%;
+    margin: 0 auto auto 0;
+    padding: 20px;
+    text-align: center;
+  }
+  body {
+    float:none
+  }
+  footer {
+    display: none;
+  }
+  .site-nav {
+    display: none;
+  }
+  .site-title {
+    display: -webkit-box;
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+  }
+  .rss-subscribe {
+    display: none;
+  }
+  .post-img-link-wrapper {
+    position:relative;
+    display:inline-grid;
+    width:100%;
+    margin-inline-start:4px;
+    margin-bottom:40px;
+    text-overflow:clip;
+    overflow:hidden
+  }
+  .post-img-link-wrapper:after,.post-img-link-wrapper:before {
+      display: none;
+    }
+  
+}
