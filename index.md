@@ -4,11 +4,13 @@ layout: default
 
   <div id="post-list">
 		{% for post in site.posts %}
-		<div>
-		  <a class="post-img-link-wrapper" data-content="{{ post.snippet }} href="{{ post.url | prepend: site.baseurl }}">
+		
+		  <a class="post-img-link" href="{{ post.url | prepend: site.baseurl }}">
+		  <div class="post-img-link-wrapper" data-content="{{ post.snippet }}">
 			  {% include story-list-img.html %}
+			  </div>
 		  </a>
-		</div>
+		
 		{% endfor %}
   
   </div>
