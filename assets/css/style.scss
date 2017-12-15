@@ -228,6 +228,7 @@ a:hover, a:focus {
 	.site-title {
 		display: block;
 		float: none;
+		text-align: center;
 	}
 	.site-description {
 		display: none;
@@ -235,6 +236,10 @@ a:hover, a:focus {
 	section {
 		position: relative;
 		top: 30%;
+		.post-img-link-wrapper {
+			width: 100%;
+			margin-bottom: 40px;
+		}
 	}
 	.post-img-link-wrapper:hover:after,.post-img-link-wrapper:hover:before {
 		display: none;
@@ -266,7 +271,7 @@ a:hover, a:focus {
 				height: 15px;
 
 				path {
-					fill: $grey-color-dark;
+					fill: $brand-color;
 				}
 			}
 		}
