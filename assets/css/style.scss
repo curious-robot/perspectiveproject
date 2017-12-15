@@ -47,7 +47,7 @@ body {
 
 
 
-.site-nav {
+/* .site-nav {
 	text-align: right;
 	
 	.menu-icon {
@@ -81,6 +81,66 @@ body {
         }
 	}
 	
+} */
+
+.site-nav {
+    text-align: right;
+
+    .menu-icon {
+        display: none;
+    }
+
+    .page-link {
+		text-align: right;
+		font: 200 22px/1.1 $header-font-family;
+		color: $brand-color;
+    }
+
+    @include media-query($on-palm) {
+        position: absolute;
+        top: 9px;
+        right: $spacing-unit / 2;
+        background-color: $background-color;
+        border: 1px solid $grey-color-light;
+        border-radius: 5px;
+        text-align: center;
+		overflow-x: hidden;
+
+        .menu-icon {
+            display: block;
+            float: right;
+            width: 36px;
+            height: 26px;
+            line-height: 0;
+            padding-top: 10px;
+            text-align: center;
+
+            > svg {
+                width: 18px;
+                height: 15px;
+
+                path {
+                    fill: $grey-color-dark;
+                }
+            }
+        }
+
+        .trigger {
+            clear: both;
+            display: none;
+        }
+
+        &:hover .trigger {
+            display: block;
+            padding-bottom: 5px;
+        }
+
+        .page-link {
+            display: block;
+            padding: 5px 5px 5px 32px;
+            margin-left: 20px;
+        }
+    }
 }
 
 
