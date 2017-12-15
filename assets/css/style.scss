@@ -96,7 +96,7 @@ body {
 		color: $brand-color;
     }
 
-    @include media-query($on-palm) {
+    @media only screen and (orientation: portrait) {
         position: absolute;
         top: 9px;
         right: $spacing-unit / 2;
