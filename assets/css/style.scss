@@ -48,44 +48,6 @@ body {
 	margin-bottom: 40px;
 }
 
-
-
-/* .site-nav {
-	text-align: right;
-	
-	.menu-icon {
-		display: none;
-	}	
-	
-	.page-link {
-		text-align: right;
-		font: 200 22px/1.1 $header-font-family;
-		color: $brand-color;
-	}
-	
-	@media only screen and (orientation: portrait) {
-		.menu-icon {
-            display: block;
-            float: right;
-            width: 36px;
-            height: 26px;
-            line-height: 0;
-            padding-top: 10px;
-            text-align: center;
-
-            > svg {
-                width: 18px;
-                height: 15px;
-
-                path {
-                    fill: $brand-color;
-                }
-            }
-        }
-	}
-	
-} */
-
 .site-nav {
     text-align: right;
 
@@ -98,51 +60,80 @@ body {
 		font: 200 22px/1.1 $header-font-family;
 		color: $brand-color;
     }
+}
 
-    @media only screen and (orientation: portrait) {
-        position: absolute;
-        top: 9px;
-        background-color: $background-color;
-        border: 1px solid $grey-color-light;
-        border-radius: 5px;
-        text-align: center;
+@media only screen and (orientation: portrait) {
+	html {
+		width: 100vw;
+	}
+	header, body, section {
+		display: block;
+		width: 100vw;
+		margin: 0px 0px 0px 0px;
+	}
+	.site-title {
+		display: block;
+		float: none;
+	}
+	.site-description {
+		display: none;
+	}
+	section {
+		position: relative;
+		top: 30%;
+	}
+	.post-img-link-wrapper:hover:after,.post-img-link-wrapper:hover:before {
+		display: none;
+	}
+	.site-nav {
+		display: block;
+		float: right;
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		background-color:#fff;
+		border:1px solid #e8e8e8;
+		border-radius:5px;
+		text-align:center;
 		overflow-x: hidden;
+		z-index: 3;
+		
+		.menu-icon {
+			display:block;
+			float:right;
+			width:36px;
+			height:26px;
+			line-height:0;
+			padding-top:10px;
+			text-align:center;
 
-        .menu-icon {
-            display: block;
-            float: right;
-            width: 36px;
-            height: 26px;
-            line-height: 0;
-            padding-top: 10px;
-            text-align: center;
+			> svg {
+				width: 18px;
+				height: 15px;
 
-            > svg {
-                width: 18px;
-                height: 15px;
+				path {
+					fill: $grey-color-dark;
+				}
+			}
+		}
 
-                path {
-                    fill: $grey-color-dark;
-                }
-            }
-        }
+		.trigger {
+			clear: both;
+			display: none;
+		}
 
-        .trigger {
-            clear: both;
-            display: none;
-        }
+		&:hover .trigger {
+			display: block;
+			padding-bottom: 5px;
+			text-align: center;
+		}
 
-        &:hover .trigger {
-            display: block;
-            padding-bottom: 5px;
-        }
-
-        .page-link {
-            display: block;
-            padding: 5px 5px 5px 32px;
-            margin-left: 20px;
-        }
-    }
+		.page-link {
+			display: block;
+			padding: 5px 20px 5px 20px;
+			text-align: center;
+		}
+	}
 }
 
 
@@ -297,34 +288,4 @@ a:hover, a:focus {
 	clear:left; 
 	font:14px Helvetica,Arial,sans-serif; 
 	width:100%;
-}
-
-@media only screen and (orientation: portrait) {
-   html {
-    width: 100vw;
-  }
-  header, body, section {
-    display: block;
-    width: 100vw;
-    margin: 0px 0px 0px 0px;
-  }
-  .post-list, .post-img-link, .post-img-link-wrapper, .story-list-img {
-    left: 0;
-  }
-  .site-title {
-    width: 100%;
-    text-align: center;
-  }
- .site-description, .site-nav, footer .page-link {
-  display:none
- }
-  .post-img-link-wrapper {
-    position:relative;
-    display:block;
-    width:100%;
-    margin-bottom:20px;
-  }
-  .post-img-link-wrapper:hover:after,.post-img-link-wrapper:hover:before {
-    display: none;
-  }
 }
