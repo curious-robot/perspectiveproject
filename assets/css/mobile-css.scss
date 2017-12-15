@@ -1,0 +1,79 @@
+---
+---
+
+html {
+	width: 100vw;
+}
+header, body, section {
+	display: block;
+	width: 100vw;
+	margin: 0px 0px 0px 0px;
+}
+.site-title {
+	display: block;
+	float: left;
+	text-align: center;
+}
+.site-description {
+	display: none;
+}
+section {
+	position: relative;
+	top: 30%;
+	.post-img-link-wrapper {
+		width: 100%;
+		margin-bottom: 40px;
+	}
+}
+.post-img-link-wrapper:hover:after,.post-img-link-wrapper:hover:before {
+	display: none;
+}
+.site-nav {
+	display: block;
+	float: right;
+	position: absolute;
+	top: 35px;
+	right: 0px;
+	background-color:#fff;
+	border:1px solid #e8e8e8;
+	border-radius:5px;
+	text-align:center;
+	overflow-x: hidden;
+	z-index: 1;
+	
+	.menu-icon {
+		display:block;
+		float:right;
+		width:36px;
+		height:26px;
+		line-height:0;
+		padding-top:10px;
+		text-align:center;
+
+		> svg {
+			width: 18px;
+			height: 15px;
+
+			path {
+				fill: $brand-color;
+			}
+		}
+	}
+
+	.trigger {
+		clear: both;
+		display: none;
+	}
+
+	&:hover .trigger {
+		display: block;
+		padding-bottom: 5px;
+		text-align: center;
+	}
+
+	.page-link {
+		display: block;
+		padding: 5px 20px 5px 20px;
+		text-align: center;
+	}
+}
