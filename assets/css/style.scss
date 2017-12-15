@@ -62,79 +62,6 @@ body {
     }
 }
 
-@media only screen and (orientation: portrait) {
-	html {
-		width: 100vw;
-	}
-	header, body, section {
-		display: block;
-		width: 100vw;
-		margin: 0px 0px 0px 0px;
-	}
-	.site-title {
-		display: block;
-		float: none;
-	}
-	.site-description {
-		display: none;
-	}
-	section {
-		position: relative;
-		top: 30%;
-	}
-	.post-img-link-wrapper:hover:after,.post-img-link-wrapper:hover:before {
-		display: none;
-	}
-	.site-nav {
-		display: block;
-		float: right;
-		position: absolute;
-		top: 0px;
-		right: 0px;
-		background-color:#fff;
-		border:1px solid #e8e8e8;
-		border-radius:5px;
-		text-align:center;
-		overflow-x: hidden;
-		z-index: 3;
-		
-		.menu-icon {
-			display:block;
-			float:right;
-			width:36px;
-			height:26px;
-			line-height:0;
-			padding-top:10px;
-			text-align:center;
-
-			> svg {
-				width: 18px;
-				height: 15px;
-
-				path {
-					fill: $grey-color-dark;
-				}
-			}
-		}
-
-		.trigger {
-			clear: both;
-			display: none;
-		}
-
-		&:hover .trigger {
-			display: block;
-			padding-bottom: 5px;
-			text-align: center;
-		}
-
-		.page-link {
-			display: block;
-			padding: 5px 20px 5px 20px;
-			text-align: center;
-		}
-	}
-}
 
 
 
@@ -288,4 +215,77 @@ a:hover, a:focus {
 	clear:left; 
 	font:14px Helvetica,Arial,sans-serif; 
 	width:100%;
+}
+@media only screen and (orientation: portrait) {
+	html {
+		width: 100vw;
+	}
+	header, body, section {
+		display: block;
+		width: 100vw;
+		margin: 0px 0px 0px 0px;
+	}
+	.site-title {
+		display: block;
+		float: none;
+	}
+	.site-description {
+		display: none;
+	}
+	section {
+		position: relative;
+		top: 30%;
+	}
+	.post-img-link-wrapper:hover:after,.post-img-link-wrapper:hover:before {
+		display: none;
+	}
+	.site-nav {
+		display: block;
+		float: right;
+		position: absolute;
+		top: 0px;
+		right: 0px;
+		background-color:#fff;
+		border:1px solid #e8e8e8;
+		border-radius:5px;
+		text-align:center;
+		overflow-x: hidden;
+		z-index: 3;
+		
+		.menu-icon {
+			display:block;
+			float:right;
+			width:36px;
+			height:26px;
+			line-height:0;
+			padding-top:10px;
+			text-align:center;
+
+			> svg {
+				width: 18px;
+				height: 15px;
+
+				path {
+					fill: $grey-color-dark;
+				}
+			}
+		}
+
+		.trigger {
+			clear: both;
+			display: none;
+		}
+
+		&:hover .trigger {
+			display: block;
+			padding-bottom: 5px;
+			text-align: center;
+		}
+
+		.page-link {
+			display: block;
+			padding: 5px 20px 5px 20px;
+			text-align: center;
+		}
+	}
 }
