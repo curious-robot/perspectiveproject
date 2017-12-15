@@ -295,4 +295,4 @@ a:hover, a:focus {
 	}
 } */
 
-@import url('mobile-css.scss') screen and (orientation: portrait);
+@import url("mobile-css.css") only screen and (orientation: portrait);
