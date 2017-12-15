@@ -216,7 +216,7 @@ a:hover, a:focus {
 	font:14px Helvetica,Arial,sans-serif; 
 	width:100%;
 }
-/* @media only screen and (orientation: portrait) {
+@media only screen and (max-width: 500px) {
 	html {
 		width: 100vw;
 	}
@@ -293,6 +293,4 @@ a:hover, a:focus {
 			text-align: center;
 		}
 	}
-} */
-
-@import url("mobile-css.css") only screen and (orientation: portrait);
+}
