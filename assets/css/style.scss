@@ -117,6 +117,7 @@ p.center {
 	margin-bottom: 6px;
 	text-overflow: clip;
 	overflow: hidden;
+	border-radius: 5%;
 }
 .post-img-link-wrapper img {
     width:100%;
@@ -161,6 +162,7 @@ p.center {
     margin: 0 auto;
 	margin-bottom: 40px;
 	width: 60%;
+	border-radius: 5%;
 }
 
 .back-button {
@@ -208,12 +210,6 @@ a:hover, a:focus {
 	width: 90%;
 	margin-right: auto;
 	margin-left: auto;
-}
-
-@media screen and (max-aspect-ratio: 1/1) {
-	footer {
-		display: none;
-	}
 }
 
 @media only screen and (max-width: 700px) {
@@ -297,4 +293,3 @@ a:hover, a:focus {
 		}
 	}
 }
-#mc_embed_signup{background:#fff; clear:left; font:14px $base-font-family; width:100%;}
