@@ -117,7 +117,6 @@ p.center {
 	margin-bottom: 6px;
 	text-overflow: clip;
 	overflow: hidden;
-	border-radius: 5%;
 }
 .post-img-link-wrapper img {
     width:100%;
@@ -162,7 +161,6 @@ p.center {
     margin: 0 auto;
 	margin-bottom: 40px;
 	width: 60%;
-	border-radius: 5%;
 }
 
 .back-button {
@@ -225,6 +223,7 @@ a:hover, a:focus {
 	}
 	header {
 		margin-bottom: 30px;
+		border-bottom: 1px solid $grey-color-light;
 	}
 	.site-title {
 		display: block;
