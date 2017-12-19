@@ -11,7 +11,7 @@ I was at a party. My first-love was there. I don’t know if you’ve had a firs
 
 I had never been in jail, never been in any trouble. I was in a cell with another lady. They told me in the holding cell that this lady was the same person who had chopped off another lady’s head and threw the body down a well in 2013. I went into the cell with this person, and just started crying. Then I gave her my sandwich. I’m a picky eater, and I didn’t really want this sandwich, and I knew I was going to be bunk mates with this crazy lady, so I gave her my sandwich. I got out of jail that same day, and I never went back. It was a good lesson for me! 
 
-![017-2]({{ "/assets/images/portraits/017-2.jpg" | site.baseurl }})
+![017-2]({{ "/assets/images/portraits/017-2.jpg" | absolute_url }})
 
 It was a preterm labor. They didn’t listen to me. They assume that when you’re a young parent you don’t know what you’re talking about. I went in to the ER and said there were complications; they told me everything was fine and sent me home. A couple hours later I went back with a fever of 104. I had tremors so bad I couldn’t talk. They apparently didn’t remember me from a few hours before. They told me I was too far into labor to stop it. The whole thing was just an infection, a cold or something, that they could have fixed. But my son passed away right after he was born. 
 
