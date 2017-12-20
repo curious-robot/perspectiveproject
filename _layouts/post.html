@@ -2,9 +2,13 @@
 layout: default
 ---
 
+{% capture capture_name %}
+{{ post.name }}
+{% endcapture %}
+
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 	
-	{% include story-img.html %}
+	{% include story-img.html name name=capture_name %}
 	
 	<div class="post-content" itemprop="articleBody">
 		{{ content }}
