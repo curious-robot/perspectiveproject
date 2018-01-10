@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "018"
+date:   2018-1-10 12:00:00 +0000
+categories: 
+permalink: /018/
+snippet: I am a big proponent of education. But I think there’s a huge disconnect between the information people are given in school and the information that is necessary to make well-formed opinions.
+---
+
+I am a big proponent of education. But I think there’s a huge disconnect between the information people are given in school and the information that is necessary to make well-formed opinions on a wide variety of matters, from religion, to politics, to day-to-day functions. Just, everything. The only way to really fix this is to start at home. It starts with an individual actively seeking information, information from two or more sides of an issue, and keeping an open mind. It entails parents teaching their children to do this, instead of passing down a lot of… opinions. Encourage children, especially young children, to go out and gather information for themselves and teach them how to process that information. 
