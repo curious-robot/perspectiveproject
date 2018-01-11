@@ -70,8 +70,21 @@ body {
 
 .social-icons {
 	display: block;
-	position: relative;
-	bottom: 10%;
+	margin-top: 40px;
+
+	.social-icon-link {
+		text-align: center;
+		display: block;
+		margin-top: 20px;
+	}
+	
+	.social-icon-img {
+		border-radius: 100%;
+		position: relative;
+		float: center;
+		width: 80px;
+		height: 80px;
+	}
 }
 
 
