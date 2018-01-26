@@ -68,6 +68,10 @@ body {
 	}
 }
 
+#social-icons-bottom {
+	display: none;
+}
+
 .social-icons {
 	display: block;
 	position: relative;
@@ -93,6 +97,7 @@ body {
 		height: 35px;
 	}
 }
+
 
 
 
@@ -266,7 +271,24 @@ a:hover, a:focus {
 		width: 100%;
 		font-size: 7vw;
 	}
-	.site-description, .social-icons {
+	
+	#social-icons-sidebar {
+		display: none;
+	}
+	
+	#social-icons-bottom {
+		display: block;
+	}
+	
+	.social-icons {
+		display: block;
+		position: static;
+		clear: both;
+		text-align: center;
+		margin: 20px auto 10px auto;
+	}
+	
+	.site-description {
 		display: none;
 	}
 	section {
