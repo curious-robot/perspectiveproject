@@ -2,5 +2,5 @@ title: The Perspective Project
 description: A collection of life experiences from the perspectives of everyday people.
 show_downloads: false
 google_analytics:
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: # the subpath of your site, e.g. /blog
 url: "https://perspective.thecuriousrobot.com" # the base hostname & protocol for your site
